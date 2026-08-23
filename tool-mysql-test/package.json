@@ -1,0 +1,33 @@
+{
+  "name": "tool-mysql-test",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "init-db": "node init-db.js",
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "web:dev": "vite",
+    "web:build": "vite build",
+    "web:preview": "vite preview"
+  },
+  "keywords": ["langchain", "qwen", "mysql", "tool", "express", "vue"],
+  "author": "",
+  "license": "ISC",
+  "description": "LangChain + qwen-plus 的 MySQL 增删改查和天气查询 Tool 演示",
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.2",
+    "@langchain/core": "^1.2.9",
+    "@langchain/openai": "^1.5.8",
+    "dotenv": "^17.4.2",
+    "element-plus": "^2.13.6",
+    "express": "^5.2.1",
+    "mysql2": "^3.23.3",
+    "vue": "^3.5.32",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.5",
+    "vite": "^8.0.4"
+  }
+}
